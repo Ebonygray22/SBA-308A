@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Info Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Flight Info Hub</h1>
+        <input type="text" id="search-bar" placeholder="Search flights...">
+        <button id="search-button">Search</button>
+    </header>
+    <main>
+        <section id="flights-section">
+            <h2>Flights</h2>
+            <ul id="flights-list"></ul>
+        </section>
+        <section id="flight-details-section">
+            <h2>Flight Details</h2>
+            <div id="flight-details"></div>
+        </section>
+    </main>
+    <script  type = "module"src="api.js"></script>
+    <script  type = "module" src="ui.js"></script>
+    <script  type = "module" src="main.js"></script>
+    <script  type = "module" src="app.js"></script>
+</body>
+</html>

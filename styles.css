@@ -1,0 +1,80 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    width: 100%;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+#search-bar {
+    width: 50%;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: 20px;
+    width: 80%;
+    flex-wrap: wrap;
+}
+
+#flights-section, #flight-details-section {
+    width: 45%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#flights-list {
+    list-style-type: none;
+    padding: 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: left;
+}
+
+#flights-list li {
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#flights-list li:last-child {
+    border-bottom: none;
+}
+
+#flights-list li:hover {
+    background-color: #eee;
+}
+
+#flight-details {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    text-align: left;
+}
+
+#flight-details h2 {
+    margin-top: 0;
+}
+
+#flight-details p {
+    margin-top: 10px;
+}
